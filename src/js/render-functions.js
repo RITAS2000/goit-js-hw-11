@@ -86,6 +86,7 @@ export function createElement(hits) {
     captionsData: 'alt',
     captionDelay: 250,
   });
+  lightbox.refresh();
 }
 
 export function clearGallery() {
